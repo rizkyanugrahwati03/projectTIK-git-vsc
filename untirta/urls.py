@@ -23,6 +23,7 @@ from fk.views import prodi5
 from fkip.views import prodi6
 from ft.views import prodi7
 from pascasarjana.views import prodi8
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('faperta/', prodi1),
