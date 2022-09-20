@@ -1,0 +1,14 @@
+    {% extends 'base.html' %}
+    {% block content %}
+    
+    <center>
+        <h1>FAKULTAS KEDOKTERAN</h1>
+    </center>
+
+    <h2>Terdiri dari :</h2>
+    
+    {% for judulfk in titlefk %}
+        <li>{{ judulfk }}</li>
+    {% endfor %}
+
+    {% endblock %}

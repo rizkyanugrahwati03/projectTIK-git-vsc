@@ -1,0 +1,18 @@
+    {% extends 'base.html' %}
+    {% block content %}
+   
+    <center>
+        <h1>FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN</h1>
+    </center>
+
+    <center>
+        <p>Memiliki 777 dosen, 629 magister, 212 doktor, dan 19 guru besar</p>
+    </center>
+    
+    <h2>Terdiri dari :</h2>
+    
+    {% for judulfkip in titlefkip %}
+        <li>{{ judulfkip }}</li>
+    {% endfor %}
+
+    {% endblock %}
